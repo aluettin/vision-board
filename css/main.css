@@ -1,0 +1,80 @@
+body {
+  background: #E8E8E8;
+  padding-top: 50px;
+}
+#vision-board {
+  background: url('../img/background.png');
+  font-family: 'Montserrat', sans-serif;
+  width: 1200px;
+  height: 850px;
+  margin: 50px auto;
+  overflow: auto;
+  text-transform: uppercase;
+}
+.block {
+  font-size: 20px;
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+
+}
+.small-block {
+  height: 210px;
+  padding-top: 25px;
+}
+.large-block {
+  height: 430px;
+  padding-top: 50px;
+}
+.grow,
+.freelance {
+  padding-left: 40px;
+}
+.flower,
+.language,
+.vision,
+.meditate,
+.dog {
+  text-align: center;
+}
+.plane,
+.exercise {
+  text-align: right;
+  padding-right: 40px;
+}
+.vision p {
+  font-size: 30px;
+}
+.light-bg {
+  background: #FFF;
+}
+.dark-bg {
+  background: #3B3B3B
+}
+.title {
+  color: #FFF;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 30px;
+}
+.title span {
+  font-family: 'Montserrat', sans-serif;
+}
+.grow span,
+.freelance span,
+.plane span {
+  font-size: 16px;
+  background: #FFF44F;
+  padding: 5px 10px;
+}
+.exercise span {
+  font-size: 16px;
+  background: #FFF44F;
+  padding: 5px 0 5px 10px;
+}
+.grow strong,
+.freelance strong,
+.plane strong,
+.exercise strong {
+  font-size: 38px;
+  text-transform: capitalize;
+}
